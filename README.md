@@ -33,6 +33,8 @@ protocol and port may be omited, `http` and `6060` are used by default
 
 * `DOCKER_PASSWORD` - Docker registry account password
 
+* `KLAR_INSECURE` - Allow Klar to access registries with bad SSL certificates. Default is `false`.
+
 Usage:
 
     CLAIR_ADDR=http://localhost CLAIR_THRESHOLD=10 DOCKER_USER=me DOCKER_PASSWORD=secret klar postgres:9.5.1
